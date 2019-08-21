@@ -5,8 +5,20 @@
   padding: 0;
 }
 
+/*Body Setting*/
+
+body {
+background-image: url(../../assets/images/backround.jpg);
+background-size:cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+
+
+
+
 #logo {
-width: 35%;
+width: 24%;
 height: 20%;
 
 }
