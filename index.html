@@ -2,11 +2,15 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+<meta name="description" content="Go-To Handyman">
+<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Go To Handyman</title>
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <header>
     <img src="assets/images/logo.png" alt="logo" id="logo">
+    <!--Nav bar section -->
+    <section>
     <nav>
       <ul id="nav-bar">
         <a class="link" href="#" target="_blank">Services</a>
@@ -14,12 +18,20 @@
         <a class="link" href="#" target="_blank">Gallery</a>
       </ul>
     </nav>
+    </section>
   </header>
   <body>
-    <p>
-      Just A Few Details For A Quick Quote
-    <form class="quote-form" action="index.html" method="post">
-    </form>
+    <!--Quote Form -->
+    <h1>Fill This Out For A Quick Quote</h1>
+      <form class="form">
+          <label class="labels" for="fname">First Name</label>
+          <input type="text" class="form" name="firstname" placeholder="First Name">
+          <label class="labels" for="lname">Last Name</label>
+          <input type="text" class="form" name="lastname" placeholder="Last Name">
+          <label class="labels" for="subject">What Can We Do For You!</label>
+          <textarea class="form" name="subject" placeholder="Let Us Know What You Need Done" style="height:170px"></textarea>
+          <input type="submit" value="Quote Me" id="quote-me">
+        </form>
   <!--Add pop-up "thanks for your time, we'll get back to you soon (:) )"-->
     </p>
   </body>

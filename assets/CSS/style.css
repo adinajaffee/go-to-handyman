@@ -13,18 +13,19 @@ body {
   background-repeat: no-repeat;
   height: 100vh;
 }
-
+/*logo styling*/
 #logo {
   width: 21%;
   height: 20%;
 }
 
+/*navigation bar*/
 #nav-bar {
   position: fixed;
   top: 0;
   width: 100%;
   padding-left: 18%;
-  padding-top: 10.5%;
+  padding-top: 4.5%;
   display: flex;
   justify-content: space-around;
   font-family: inherit;
@@ -35,5 +36,66 @@ body {
   color: white;
   text-decoration: none;
   border: outset;
-  border-radius: 32%;
+  border-radius: 19px;
+  width: max-content;
+}
+
+/*Quote form styling*/
+
+h1 {
+  margin-left: 71%;
+  color: black;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  font-size: x-large;
+  font-family: fantasy;
+}
+
+/*placeholders and labels*/
+.labels {
+  padding-left: 46%;
+  display: flex;
+  margin: 1%;
+  font-family: fantasy;
+  color: black;
+  text-align: center;
+}
+
+/* quick quote fill-in */
+.form {
+  width: 52%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 8px;
+  font-size: medium;
+  font-family: fantasy;
+  text-align: center;
+  margin-left: 46%;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: black;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: black;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: black;
+}
+
+/*button styling*/
+#quote-me {
+  color: black;
+  font-size: large;
+  width: 32%;
+  height: 5vh;
+  margin-top: 5%;
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 5%;
+  margin-left: 58%
 }
